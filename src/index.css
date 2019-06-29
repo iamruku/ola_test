@@ -1,0 +1,93 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.cls-content {
+    padding: 5% 10%;
+}
+
+.cls-header {
+    color: #CCE500;
+    margin: 16px 0;
+}
+
+.cls-tweet-ip-box {
+    height: 64px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.cls-tweet-ip-box:focus {
+    border: 1px solid #CCE500
+}
+
+.cls-primary-button {
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #CCE500;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.cls-error-button {
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #ff0000;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+}
+
+.cls-error {
+    margin: 16px 0;
+    color: #ff0000;
+}
+
+.cls-list-of-tweets {
+    margin-top: 24px;
+}
+
+.cls-tweet {
+    margin-top: 40px;
+}
+
+.cls-tweet-user {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cls-tweet-handle {
+    font-size: 12px;
+    color: #969696;
+    margin-left: 4px;
+}
+
+.cls-tweet-timestamp {
+    font-size: 12px;
+    color: #969696;
+    margin-top: 8px;
+}
+
+.cls-tweet-tweet {
+    text-align: justify;
+}
